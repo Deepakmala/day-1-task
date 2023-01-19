@@ -1,0 +1,23 @@
+Blog on differences between windows and document objects.
+
+The window and document objects in JavaScript are two of the most commonly used objects in web development. Both are used to access and manipulate the contents of a web page, but they have different properties and methods, and serve different purposes.
+
+The window object represents the browser window, and is the global object in JavaScript. It contains information about the current browser window, such as the size of the window, the current URL, and the current scroll position. It also contains methods for manipulating the window, such as alert(), prompt(), and open().
+
+The document object, on the other hand, represents the current web page, and is a property of the window object. It contains information about the contents of the web page, such as the HTML elements, their attributes, and their styles. It also contains methods for manipulating the contents of the web page, such as getElementById(), 
+createElement(), and appendChild().
+
+One of the main differences between the window and document objects is that the window object represents the browser window as a whole, while the document object represents the contents of the web page. This means that the window object is available even if the web page is not fully loaded, while the document object is only available after the web page is fully loaded.
+
+Another difference is that the window object has properties and methods for interacting with the browser window, such as location (which contains information about the current URL) and open() (which opens a new window or tab), while the document object has properties and methods for interacting with the contents of the web page, such as getElementById() and createElement().
+
+For example, we can use the window.location property to get the current URL of the web page, and we can use the window.open() method to open a new window or tab. On the other hand, we can use the document.getElementById() method to get a reference to a specific HTML element on the web page, and we can use the document.createElement() method to create a new HTML element.
+
+The window object also has some other properties and methods that are commonly used in web development, such as setTimeout() and setInterval() for scheduling timed events, alert() and prompt() for displaying dialog boxes, and innerWidth and innerHeight for getting the size of the browser window.
+
+In contrast, the document object has properties and methods for working with the contents of a web page, such as getElementById() and getElementsByTagName() for accessing specific HTML elements, createElement() and createTextNode() for creating new HTML elements, and appendChild() and removeChild() for adding and removing elements from the web page.
+
+In summary, the window and document objects in JavaScript are two of the most commonly used objects in web development. The window object represents the browser window and has properties and methods for interacting with the browser window, while the document object represents the contents of the web page and has properties and methods for interacting with the contents of the web page. Both objects are important for web development and are used to access and manipulate the contents of a web page.
+
+
+
